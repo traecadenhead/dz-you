@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dz-you",
+  "private_key_id": "6ebab5b4ae6bdffae41b29265e55202efb00151a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChQYrNSt4nQZrp\ng1tat4ciVaS+yxMEQPVqlSpRZ7cRiIujXv7C3fITHZKuautwqQFCmScjmfXiVQFg\npkpP5eXuF1ZWkRzODJ4Rb1qnCb2zga/cnq9CcS8C2x5HaotVX7ds3u6ppJoNJnPD\nJFW844aMf/nvkGUsvniSd5mu1hV5rEGtIJOj/gos5/hjZvjCXvymMaz9zSyMeKmb\n53my2/01al5dI1Httj4YJuXC4DdDYDcrhsevqnXVFLhtQLry/zBL0T3Hac4vYzh9\n3ggnKSEQiGnV2Rel5XZKQ17SW59WTOT5E4qQuqr/0FraGiC2u5StRXz6wHGmyXNw\n6rY2CykVAgMBAAECggEADCwZYSO8nzP5kJTkyXU/Ex1p4SkNF24b2F7IIfr1O7KV\n79AU5PrB8iVyVA4oFYn8WV2cMbjGcb4+61/CDkPpVk6WqtQrW3ZiXCiOrDs1AZ7R\nepLT4e0PQmTt5TAqslgWTXaKh22wXzu+00Uj361BE8v5Ptcke/souM2kYSkx18xF\nIVgLtBdwe2rivpvbH+PBUbzP3dOxGQLTMn0QZkRZ5X4JqFHJWnaFt8mlRobkNKH9\nmnBMbkb1cUyOZq9iJbtROwYO2jsY+yDzWezwjwh2sj99Zn9DtdE8E6602Gj4IPkf\nUzkaPJ+QNwVv+pKMrynCwmOODpfcSrCrrSqSoL9QIQKBgQDeDN1Hd+eRQlwgPTg3\nnb93nebK6LCCqPbyWE4wOSCtSwUoQcRYzjHuKZdhSbmoUiV5mJnz0W8YcZCgDhYv\ntPfQIrDnO84lFHeiZ/Gv9lgKa0izSbkCz4Q7gvDT6nlURGrrUDVCwgNN+9bGqzoB\nMyOZ1+qs9bjNgxw42JMkKDqSLQKBgQC56SreqkuJYS/GejDxE0soosFN5LK8/9Ew\n210b+K8KECzZdWP1OqO21/q8twiBnaU6DwXush86ZLTOW92M/uxdZnwyuGzD83CO\nH24NkhpTnsVLUzgiPG5GlOD6n/aNAB62a6CtCrQCECdgVJ/jz6QXzgq8CXwHklEm\nNvA9RfcLiQKBgQCs9mZS6jJFsuQh9K3anJTs7uE8gt4jGMwq3+AfrhAnDD27Kudv\nqUW5V0pkbNIiK8KnIdgh1Kxt5OAb3H0pshQqWytjIvGjbnr11XOsdf4EN6dMiIuF\nhfFhjdBbsdPKcPS70SF7m7aJQzb8T5oCHzyG9GoHSewmoQ8VtJWA35koDQKBgQCv\nGCfEJueVr+7rI9JMeztiPkeJMUgWMWm4diIvYfyZobpb5PAL2vquDqSccFaWnP8s\nu1F/CkvXF1oisOrtDHtZTFjU/FWUCAeOE5P3PA+HihWPaAWKWRgTacyqv1XaXq6O\naLefwmDfQI+Vbp5YVQvbT7dUeipShz/emgeR7f9K4QKBgA6JFASa/5Jv0W5yRxzF\no6/5WpvbMbgt4iFowcgjPaw0eU3FzXpo1dz1jFQv2eYVdE/PDumJRXBOeOue3ya9\nkJuIPxTsVs4gsBuFEveFEYHB+IcsGoyrZLRL9xif3jWjz8b7GRxBne+oWQDDicWv\ngXIT3Li07x3IGg1cKFGfjC6O\n-----END PRIVATE KEY-----\n",
+  "client_email": "dz-you-auth@dz-you.iam.gserviceaccount.com",
+  "client_id": "111611454405721243531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dz-you-auth%40dz-you.iam.gserviceaccount.com"
+}

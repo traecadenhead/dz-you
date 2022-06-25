@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>It's Always Been You</title>
+        <link href="index.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="container">
+            <div class="screen" id="01-home">
+                <img src="screens/01-home.png" alt="It's you! It always has been." />
+            </div>
+            <div class="screen" id="02-we-see-you">
+                <img src="screens/02-we-see-you.png" alt="We see you. First, it's about you. We make Delta Zeta for women like you. We know that you grow and change. We promise to grow and change with you. If we missed you before, we see you now. We want to be friends with women like you. You're here. It's why we're here. You are the reason we started and the reason we stay." />
+            </div>
+            <div class="screen" id="women-we-know">
+                <video autoplay muted loop poster="screens/03-women-we-know.png">
+                    <source src="screens/03-women-we-know.mp4" type="video/mp4">              
+                </video>
+            </div>
+            <div class="screen" id="04-our-founders">
+                <img src="screens/04-our-founders.png" alt="Our founders fought for women and their place on campus, an act that's inspired us for 120+ years. We're by and for women." />
+            </div>
+            <div class="screen" id="05-women-belong">
+                <img src="screens/05-women-belong.png" alt="We're here because we belong. Women belong. We're here for women. You are included in all that we dream of doing." />
+            </div>
+            <div class="screen" id="06-true-friendship">
+                <img src="screens/06-true-friendship.png" alt="True friendship begins and begins again. Seeking friendship. It's not always easy to make a new friend, but the friendships we make are made to last. Shared Values. These are qualities we've recognized in women we know. Doing Life Together. When we become friends doesn't matter. We're truly supportive whatever life brings, whenever it brings it." />
+            </div>
+            <div class="screen" id="07-you-truly-inspire-us">
+                <img src="screens/07-you-truly-inspire-us.png" alt="You truly inspire us. We are what you make us. Social events, personal growth, community service, opportunities to lead--those can all be fun if they're for you." />
+            </div>
+            <div class="screen" id="08-be-your-friend">
+                <img src="screens/08-be-your-friend.png" usemap="#friend-map" alt="We'd like to be your friend. Let's get coffee. Whether we've known each other in passing, worked together, or have a mutual friend, can we get a cofee and hang out? It's our treat! Come help do something cool. We're always doing something that matters in the community. Maybe that's your thing, too. If so, we'd love for you to come along with us." />
+                <map name="friend-map">
+                    <area alt="get a coffee" title="get a coffee" onclick="setConnect('coffee')" coords="444,812,253,767" shape="rect">
+                    <area alt="come along" title="come along" onclick="setConnect('involved')" coords="465,1060,641,1027" shape="rect">
+                </map>
+            </div>
+            <div class="screen" id="09-lets-connect">
+                <img src="screens/09-lets-connect.png" usemap="#connect-map" alt="Ready to be friends? Let's connect." />
+                <map name="connect-map">
+                    <area alt="Get Coffee" title="Get Coffee" onclick="setConnect('coffee')" coords="206,727,512,794" shape="rect">
+                    <area alt="Get Involved" title="Get Involved" onclick="setConnect('involved')" coords="177,1156,535,1223" shape="rect">
+                </map>
+            </div>
+            <div class="screen" id="connect-form">
+                <form id="connectForm" onsubmit="connect(event)">
+                    <div class="field">
+                        <label for="connectType">I'd Like To</label>
+                        <div class="select">
+                            <select id="connectionType" name="connectionType">
+                                <option>Get Coffee</option>
+                                <option>Get Involved</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="first">First Name</label>
+                        <input type="text" id="first" name="first" required />
+                    </div>
+                    <div class="field">
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" name="last" required />
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx" required />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="tel" id="email" name="email" required />
+                    </div>
+                    <div class="field">
+                        <div class="instructions">Please check all that apply to you</div>
+                        <div class="check">
+                            <input type="checkbox" id="graduatedHighSchool" name="graduatedHighSchool"/>
+                            <label for="graduatedHighSchool">I've Graduated from High School</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="collegeStudent" name="collegeStudent"/>
+                            <label for="collegeStudent">I'm a College Student</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="inSorority" name="inSorority"/>
+                            <label for="inSorority">I'm in a Sorority</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="graduatedCollege" name="graduatedCollege"/>
+                            <label for="graduatedCollege">I've graduated from College</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="disclaimer">
+                        * By providing your phone, email, or DM you are inviting a Delta Zeta Sorority representative to contact you.
+                    </div>
+                </form>
+            </div>
+            <div class="screen" id="11-socials">
+                <img src="screens/11-socials.png" usemap="#socials-map" alt="Website: deltazeta.org. TikTok: @deltazetanatl. Instagram: @deltazetanatl." />
+                <map name="socials-map">
+                    <area alt="deltazeta.org" title="deltazeta.org" href="https://www.deltazeta.org" target="_blank" coords="232,352,481,402" shape="rect">
+                    <area alt="@deltazetanatl" title="@deltazetanatl" href="https://tiktok.com/@deltazetanatl" target="_blank" coords="227,769,490,825" shape="rect">
+                    <area alt="@deltazetanatl" title="@deltazetanatl" href="https://instagram.com/deltazetanatl" target="_blank" coords="229,1198,492,1254" shape="rect">
+                </map>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

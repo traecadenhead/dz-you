@@ -1,0 +1,22 @@
+body {
+    background: #CCCCCC;
+    margin-top: 0px;
+}
+
+div#container {
+    background: #000000;
+    margin: auto;
+    max-width: 620px;
+    min-height: 500px;
+}
+
+div#home {
+    width: 961.803px;
+    height: 640px;
+    transform: translate(-283.848px, 0px) rotate(0deg);
+    opacity: 0.81;
+}
+
+div#home img {
+    object-fit: fill;
+}

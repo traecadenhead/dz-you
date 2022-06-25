@@ -1,0 +1,3 @@
+window['cmsg']['assets'] = window['cmsg']['assets'] || {};
+window['cmsg']['assets']["en"] = Object.assign(window['cmsg']['assets']["en"] || {}, {"887":{"js":["48732686571eeae1.strings.js"],"css":[]}});
+window['cmsg']['cssAssets'] = Object.assign(window['cmsg']['cssAssets'] || {}, {"45":{"ltr":"12fe0ceb71a52c91.ltr.css","rtl":"ea54d636cdda6628.rtl.css"},"302":{"ltr":"6af98c1787e09be7.ltr.css","rtl":"cab2deb6b9426577.rtl.css"},"342":{"ltr":"f604e59b5846008f.ltr.css","rtl":"371c552a88c20215.rtl.css"},"538":{"ltr":"4e71d3ebcf067fe4.ltr.css","rtl":"690aa9096d383cd8.rtl.css"},"887":{"ltr":"b125265dbce96e1e.ltr.css","rtl":"29b3ff41a8763a43.rtl.css"}});
