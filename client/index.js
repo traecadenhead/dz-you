@@ -1,4 +1,4 @@
-const API_URL = "https://1497-66-90-137-4.ngrok.io";
+const API_URL = "http://ec2-3-80-94-54.compute-1.amazonaws.com:3001/connect";
 
 connectionTypes = {
     coffee: {
