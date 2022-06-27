@@ -16,14 +16,14 @@ div.screen {
 }
 
 div.screen video {
-    width: 360px;
+    max-width: 360px;
 }
 
 div.screen img {
     width: 100%;
 }
 
-div.screen map area {
+div.screen svg a {
     cursor: pointer;
 }
 
@@ -98,6 +98,7 @@ div.field input[type="submit"] {
     display: block;
     height: 40px;
     font-size: 20px;
+    background-color: #FFFFFF;
 }
 
 div.disclaimer {

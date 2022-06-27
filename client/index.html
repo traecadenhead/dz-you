@@ -14,8 +14,8 @@
                 <img src="screens/02-we-see-you.png" alt="We see you. First, it's about you. We make Delta Zeta for women like you. We know that you grow and change. We promise to grow and change with you. If we missed you before, we see you now. We want to be friends with women like you. You're here. It's why we're here. You are the reason we started and the reason we stay." />
             </div>
             <div class="screen" id="women-we-know">
-                <video autoplay muted loop poster="screens/03-women-we-know.png">
-                    <source src="screens/03-women-we-know.mp4" type="video/mp4">              
+                <video autoplay muted playsinline loop poster="screens/03-women-we-know.png">
+                    <source src="screens/03-women-we-know.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="screen" id="04-our-founders">
@@ -31,18 +31,26 @@
                 <img src="screens/07-you-truly-inspire-us.png" alt="You truly inspire us. We are what you make us. Social events, personal growth, community service, opportunities to lead--those can all be fun if they're for you." />
             </div>
             <div class="screen" id="08-be-your-friend">
-                <img src="screens/08-be-your-friend.png" usemap="#friend-map" alt="We'd like to be your friend. Let's get coffee. Whether we've known each other in passing, worked together, or have a mutual friend, can we get a cofee and hang out? It's our treat! Come help do something cool. We're always doing something that matters in the community. Maybe that's your thing, too. If so, we'd love for you to come along with us." />
-                <map name="friend-map">
-                    <area alt="get a coffee" title="get a coffee" onclick="setConnect('coffee')" coords="444,812,253,767" shape="rect">
-                    <area alt="come along" title="come along" onclick="setConnect('involved')" coords="465,1060,641,1027" shape="rect">
-                </map>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 1280">
+                    <image width="720" height="1280" xlink:href="screens/08-be-your-friend.png"></image> 
+                    <a onclick="setConnect('coffee')" title="get a coffee">
+                      <rect x="252" y="773" fill="#fff" opacity="0" width="195" height="50"></rect>
+                    </a>
+                    <a onclick="setConnect('involved')" title="come along">
+                      <rect x="463" y="1024" fill="#fff" opacity="0" width="179" height="50"></rect>
+                    </a>
+                </svg>
             </div>
             <div class="screen" id="09-lets-connect">
-                <img src="screens/09-lets-connect.png" usemap="#connect-map" alt="Ready to be friends? Let's connect." />
-                <map name="connect-map">
-                    <area alt="Get Coffee" title="Get Coffee" onclick="setConnect('coffee')" coords="206,727,512,794" shape="rect">
-                    <area alt="Get Involved" title="Get Involved" onclick="setConnect('involved')" coords="177,1156,535,1223" shape="rect">
-                </map>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 1280">
+                    <image width="720" height="1280" xlink:href="screens/09-lets-connect.png"></image> 
+                    <a onclick="setConnect('coffee')" title="get a coffee">
+                      <rect x="205" y="725" fill="#fff" opacity="0" width="310" height="71"></rect>
+                    </a>
+                    <a onclick="setConnect('involved')" title="get involved">
+                      <rect x="180" y="1159" fill="#fff" opacity="0" width="355" height="67"></rect>
+                    </a>
+                </svg>
             </div>
             <div class="screen" id="connect-form">
                 <form id="connectForm" onsubmit="connect(event)">
@@ -69,7 +77,7 @@
                     </div>
                     <div class="field">
                         <label for="email">Email</label>
-                        <input type="tel" id="email" name="email" required />
+                        <input type="email" id="email" name="email" required />
                     </div>
                     <div class="field">
                         <div class="instructions">Please check all that apply to you</div>
@@ -99,12 +107,18 @@
                 </form>
             </div>
             <div class="screen" id="11-socials">
-                <img src="screens/11-socials.png" usemap="#socials-map" alt="Website: deltazeta.org. TikTok: @deltazetanatl. Instagram: @deltazetanatl." />
-                <map name="socials-map">
-                    <area alt="deltazeta.org" title="deltazeta.org" href="https://www.deltazeta.org" target="_blank" coords="232,352,481,402" shape="rect">
-                    <area alt="@deltazetanatl" title="@deltazetanatl" href="https://tiktok.com/@deltazetanatl" target="_blank" coords="227,769,490,825" shape="rect">
-                    <area alt="@deltazetanatl" title="@deltazetanatl" href="https://instagram.com/deltazetanatl" target="_blank" coords="229,1198,492,1254" shape="rect">
-                </map>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 1280">
+                    <image width="720" height="1280" xlink:href="screens/11-socials.png"></image> 
+                    <a xlink:href="https://www.deltazeta.org" target="_blank" title="deltazeta.org">
+                      <rect x="239" y="350" fill="#fff" opacity="0" width="240" height="52"></rect>
+                    </a>
+                    <a xlink:href="https://tiktok.com/@deltazetanatl" target="_blank" title="@deltazetanatl">
+                      <rect x="234" y="779" fill="#fff" opacity="0" width="254" height="50"></rect>
+                    </a>
+                    <a xlink:href="https://instagram.com/deltazetanatl" target="_blank" title="@deltazetanatl">
+                      <rect x="231" y="1205" fill="#fff" opacity="0" width="257" height="50"></rect>
+                    </a>
+                </svg>
             </div>
         </div>
         <script src="index.js"></script>
