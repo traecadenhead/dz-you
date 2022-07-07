@@ -38,9 +38,9 @@ function connect(e) {
     };
 
     fetch(API_URL, options).then(response => response.json())
-    .then(() => { 
-        alert("Awesome! We'll reach out to you soon! Thanks!");
-        // TODO: clear form
+    .then(() => {
+        clearForm();
+        alert("Awesome! We'll reach out to you soon! Thanks!");        
     })
     .catch(err => {
         alert("Oh no, something went wrong!");
@@ -61,4 +61,15 @@ function jsonifyForm(formData) {
         }
     }
     return json;
+}
+
+function clearForm() {
+    document.getElementById("connectionType").selectedIndex = 0;
+    document.getElementById("first").value = "";
+    document.getElementById("last").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phone").value = "";
+    for (key of checklistKeys) {
+        document.getElementById(key).checked = false;
+    }
 }

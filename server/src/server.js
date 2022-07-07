@@ -15,6 +15,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.get("/health", function(req, res){
+    return res.json({success: true});
+});
+
 app.post("/connect", function(req, res){
     // configure a JWT auth client
     const jwt_client = new google.auth.JWT(
