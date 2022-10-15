@@ -1,4 +1,4 @@
-const API_URL = "http://ec2-3-80-94-54.compute-1.amazonaws.com:3001/connect";
+const API_URL = "https://api.letsdz.com/connect";
 
 connectionTypes = {
     coffee: {
@@ -69,6 +69,7 @@ function clearForm() {
     document.getElementById("last").value = "";
     document.getElementById("email").value = "";
     document.getElementById("phone").value = "";
+    document.getElementById("university").value = "";
     for (key of checklistKeys) {
         document.getElementById(key).checked = false;
     }
